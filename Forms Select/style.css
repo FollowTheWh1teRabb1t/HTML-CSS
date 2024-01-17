@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(255, 3, 255);
+    color: white;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    width: 700px;
+    margin: 20px 0;
+}
+
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.estado {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.tecnologias {
+    margin: 20px 0;
+    width: 100%;
+    height: 50px;
+}
+
+h1 {
+    color: rgb(255, 3, 255);
+}
+
+footer {
+    width: 100%;
+    height: 55px;
+    position: sticky;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    background: #f8f8f8;
+    color: #ff21c5;
+}
+
+button {
+    width: 100%;
+    color: white;
+    height: 30px;
+    background-color: #ff21c5;
+}
+
+button:hover {
+    color: black;
+}

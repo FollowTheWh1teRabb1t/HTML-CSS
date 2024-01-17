@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fieldset</title>
+</head>
+<body>
+    <header>
+        Revista
+    </header>
+    <main>
+        <div>
+            <h1>Cadastro</h1>
+            <p>Estamos lançando uma nova revista e enviaremos <br> o primeiro exemplar hoje gratuitamente para quem se cadastrar <br> hoje ainda!</p>
+        </div>
+
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula8/">
+            <fieldset class="primeiro">
+                <legend>Dados de contato</legend>
+
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="usuario@provedor.com" required>
+                
+                <label>Telefone:</label>
+                <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+            </fieldset>
+            <fieldset class="segundo">
+                <legend>Dados de entrega</legend>               
+
+                <label>Endereço:</label>
+                <input type="text" name="endereco" placeholder="Rua, Avenida, Travessa...">
+
+                <label>Número</label>
+                <input type="number" name="numero">
+
+                <label>Complemento:</label>
+                <input type="text" name="complemento" placeholder="Mercados, lojas, ambientes nas proximidades.. ">
+            </fieldset>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        Copyright - Revista
+    </footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.topo, .copyright {
+    background-color: blue;
+    text-align: center;
+    height: 50px;
+}
+
+.titulo, .copyright {
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sessão-apresentação h1 {
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sessão-apresentação {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.sessão-apresentação a:visited {
+    color: red;
+}
+
+.sessão-especificações ul {
+    list-style-type: none;
+} 
+
+.sessão-especificações div {
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid blue;
+}
+
+.sessão-especificações div:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.imagem-jogos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-jogos2 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem-jogos img {
+    width: calc((100% - 9px) / 3);
+    box-sizing: border-box;
+}
+
+.imagem-jogos2 img {
+    width: calc((100% - 9x) / 3);
+    box-sizing: border-box;
+}
+
+.imagem-jogos img:hover {
+    border: 3px solid blue;
+}
+
+.imagem-jogos2 img:hover {
+    border: 3px solid blue;
+}
+

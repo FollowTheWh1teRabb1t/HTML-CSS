@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>Vagas</p>
+    </header>
+    <main>
+        <div>
+            <h1>Formulário de vagas para programadores</h1>
+            <p>Preencha o formulário abaixo com suas informações!</p>
+        </div>
+
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula7/">
+                <label>Nome</label>
+                <div>
+                    <input type="text" name="nome" class="inputText" placeholder="Digite seu nome completo" required>
+                </div>
+                
+
+                <label>Data de Nascimento</label>
+                <div>
+                    <input type="date" name="data_nascimento" required>
+                </div>
+
+                <label>Email</label>
+                <div>
+                    <input type="email" name="email" class="inputText" placeholder="email@provedor.com" required>
+                </div>
+
+                <label>Selecione seu estado</label>
+                <div>
+                    <select class="estado" name="estado">
+                        <option value="">Selecione seu estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraiba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <p>Tecnologias:</p>
+                    <select class="tecnologias" name="tecnologias[]" size="6" multiple>
+                        <option value="c">C</option> 
+                        <option value="c++">C++</option>
+                        <option value="HTML">HTML</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Flutter">Flutter</option>
+                        <option value="Kotlin">Kotlin</option>
+                    </select>
+                    <button type="submit">Enviar Formulário</button>
+            </div>
+        </form>   
+    </main>
+    <footer>
+        Copyright - Programmers
+    </footer>
+
+
+
+</body>
+</html>

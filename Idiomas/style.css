@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px;
+    background-color: black;
+}
+
+
+.secao-topo {
+    background-color: grey;
+    border: 10px solid black;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.texto-azul {
+    color: blue;
+
+}
+
+.bandeira-idiomas {
+    width: 90px;
+    background-color: blue;
+    padding: 10px 10px;
+}
+
+.ingles-div {
+    background-color: blue;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+
+.titulo-idiomas {
+    color: white;
+    background-color: blue;
+}
+
+.paragrafo-idiomas {
+    color: white;
+    font-size: 20px;
+}
+
+.espanhol-div {
+    background-color: blue;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+
+.frances-div {
+    background-color: blue;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+
+.final {
+    background-color: blue;
+    border: 10px solid black;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+
+.mensagem-final {
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 10px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
