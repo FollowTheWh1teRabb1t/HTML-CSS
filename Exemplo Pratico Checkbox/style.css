@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    height: 50px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+.titulos {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.box-pesquisa {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    width: 100%;
+}
+
+.box-pesquisa p {
+    margin: 20px;
+}
+
+h1 {
+    color: purple;
+    margin-top: 20px;
+}
+
+button {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: purple;
+}
+
+

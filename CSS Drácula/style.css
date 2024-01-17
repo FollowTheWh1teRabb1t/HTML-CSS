@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+div {
+    width: 500px;
+    margin: 0 auto;
+    border: 5px solid red;
+    text-align: center;
+    padding: 30px 60px 30px 60px;
+    border-radius: 15px;
+}
+
+img {
+    width: 350px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+p {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 40px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+
+}
+

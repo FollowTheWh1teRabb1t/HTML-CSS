@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5 {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.topo {
+
+    width: 100%;
+    background-color:#604829; 
+    z-index: 1; 
+    position: fixed;
+
+}
+
+.topo img {
+    width: 100px;
+    height: 100px;
+}
+
+.topo div {
+    position: absolute;
+    top: 7%;
+    right: 15%;
+}
+
+.topo div a {
+    color: #c4a47c;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 3px 5px 2px #000000;
+}
+
+.container-parallax1 {
+    background-image: url(assets/parallax-imagem1.png);
+    height: 100vh;
+}
+
+.container-parallax1 h1 {
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 100px;
+    color: #fff;
+}
+
+.container-parallax2 {
+    background-image: url(assets/parallax-imagem2.jpg);
+    height: 100vh;
+}
+
+.container-parallax3 {
+    background-image: url(assets/parallax-imagem3.jpg);
+    height: 100vh;
+}
+
+.container-parallax4 {
+    background-image: url(assets/parallax-imagem4.png);
+    height: 100vh;
+}
+
+.container-parallax5 {
+    background-image: url(assets/cafeteria.jpg);
+    height: 100vh;
+}
+
+
+.container-parallax2 h3, 
+.container-parallax3 h3 {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 8px;
+    font-style: italic;
+    color: #fff;
+    font-weight: none;
+    background-color: #604829;
+
+}
+
+
+.container-parallax4 h2{
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 500px;
+    padding: 10px;
+    background-color: #604829;
+    color: #fff;
+
+}
+
+.container-parallax4 iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    height: 400px;
+    margin: auto; }
+
+.container-contatos {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #604829;
+    margin: auto;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+
+.container-texto {
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+    padding: 80px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.container-texto h2 {
+    color: #604829;
+}
+
+.lista-de-horarios {
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+    
+}
+
+.lista-de-horarios li {
+    position: relative;
+}
+
+.lista-de-horarios li h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista-de-horarios li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background-color: #ACACAC
+}
+
+.texto-marrom {
+    color: #c4a47c;
+}
+
+.lista-de-horarios p {
+    color: #ACACAC;
+}
+
+.lista-de-horarios li p,
+.texto-marrom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.roda-pe {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: black;
+}
+
+.roda-pe p {
+    color: #fff;
+}
+.roda-pe span {
+    color: #c4a47c;
+}
+
+.roda-pe a {
+    position: absolute;
+    background-color: #604829;
+    color: #fff;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    top: 35%;
+    right: 5%;
+    padding: 5px 5px;
+    margin: auto;
+}
+
+
+
+
+
+

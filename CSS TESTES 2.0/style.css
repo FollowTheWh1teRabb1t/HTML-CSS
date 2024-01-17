@@ -1,0 +1,39 @@
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 48px;
+}
+
+
+span {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+   
+div {
+    background-color: red;
+}
+
+body {
+    background-color: black;
+}
