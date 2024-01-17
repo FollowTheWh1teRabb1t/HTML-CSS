@@ -1,0 +1,12 @@
+div {
+    color: aliceblue;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+img {
+    width: calc(100% - 60%);
+    height: calc(100% - 60%);
+}

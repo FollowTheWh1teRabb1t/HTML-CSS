@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.body {
+    background-color: black;
+}
+
+.topo, .rodape {
+    background-color: blue;
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    height: 40px;
+}
+
+.banner img {
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+
+.poema {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.poema p::first-letter {
+    font-size: 30px;
+}
+
+.poema::first-line {
+    font-style: italic;
+}
